@@ -1,0 +1,24 @@
+{
+  "name": "dalle-api",
+  "version": "1.0.0",
+  "description": "OPEN AI api",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Esquea",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.34.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "openai": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
