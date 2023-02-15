@@ -15,7 +15,7 @@ app.use(express.json({limit: '50mb'}))
 app.use('/api/posts', postRouter);
 app.use('/api/dalle', DalleRouter)
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 try {
     connectDB(process.env.MONGO_URI)
